@@ -1,7 +1,7 @@
 FROM djmattyg007/arch-phpfpm:2017.01.18-1
 MAINTAINER djmattyg007
 
-ENV PICTORIALSIMAGE_VERSION=2017.01.18-1
+ENV PICTORIALSIMAGE_VERSION=2017.01.18-2
 
 # Add install bash script
 COPY setup/root/*.sh /root/
